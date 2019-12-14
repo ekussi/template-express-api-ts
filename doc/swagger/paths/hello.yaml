@@ -1,0 +1,22 @@
+get:
+  summary: Sample endpoint
+  parameters:
+    - $ref: ../definitions/auth.yaml
+  responses:
+    400:
+      $ref: ../definitions/response-400.yaml
+    401:
+      $ref: ../definitions/response-401.yaml
+    403:
+      $ref: ../definitions/response-403.yaml
+    500:
+      $ref: ../definitions/response-500.yaml
+    200:
+      description: ok
+      content:
+        application/json:
+          schema:
+            type: string
+            example: Hello wolrd!
+
+

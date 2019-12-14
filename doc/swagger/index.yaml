@@ -1,0 +1,20 @@
+openapi: 3.0.0
+servers:
+  - url: http://localhost:3000/v1
+info:
+  version: "1.0.0"
+  title: Node Express API Template
+  description: Node Express API Template
+security:
+  - Authorization: []
+
+paths:
+  /hello:
+    $ref: ./paths/hello.yaml
+components:
+  schemas: {}
+  securitySchemes:
+    Authorization:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
