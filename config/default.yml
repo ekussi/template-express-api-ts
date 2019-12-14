@@ -1,0 +1,6 @@
+---
+service: enter api name here
+
+logger:
+  level: info
+
