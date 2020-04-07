@@ -42,7 +42,7 @@ app.get('/v1', (req, res) => {
   res.json({
     version: 'v1',
     application: 'Template service',
-    license: 'OneSky',
+    license: 'MIT',
   });
 });
 
