@@ -7,6 +7,7 @@ To get the Node server running locally:
 - Clone this repo
 - `npm install` to install all required dependencies
 - `npm start` to start the local server
+  - Note: out of the box and once running, you can hit the local server at `[get] localhost:3000/v1/hello`
 
 
 ## Code Overview
